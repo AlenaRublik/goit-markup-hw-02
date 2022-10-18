@@ -1,0 +1,75 @@
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* цвет адреса в подвале rgba(255, 255, 255, 0.6); */
+
+/* цвет фона шапки #FFFFFF */
+
+/* вторичный цвет фона героя #2F303A */
+
+/* вторичнф цвет фона  #F5F5F5 */
+
+/* вторичный цвет фона секции #F5F4FA */
+
+/* цвет фона подвала #2F303A */
+
+:root {
+    --main-color: #212121;
+    --logo-color: #000000;
+    --phone-color: #757575;
+    --primary-color: #ffffff;
+    --accent-color: #2196f3;
+    --hero-color: #2f303a;
+    --box-shadow-color: rgba(0, 0, 0, 0.15);
+    --adress-color: rgba(255, 255, 255, 0.6);
+    /* Sorry */
+}
+
+.page {
+    background: #F5F5F5;
+    color: #757575
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo>.primary {
+    color: var(--accent-color);
+}
+
+.logo>.secondary {
+    color: var(--logo-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--main-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    color: var(--primary-color);
+    background-color: var(--hero-color);
+}
